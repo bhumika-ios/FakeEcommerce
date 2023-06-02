@@ -16,6 +16,7 @@
 		ACBD937C2A29DF17005AC9BC /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937B2A29DF17005AC9BC /* ProfileImageView.swift */; };
 		ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937D2A29E445005AC9BC /* CategoryView.swift */; };
 		ACBD93802A29E7D3005AC9BC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937F2A29E7D3005AC9BC /* APIService.swift */; };
+		ACBD93822A29EA0F005AC9BC /* Load&Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93812A29EA0F005AC9BC /* Load&Decode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		ACBD937B2A29DF17005AC9BC /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 		ACBD937D2A29E445005AC9BC /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		ACBD937F2A29E7D3005AC9BC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		ACBD93812A29EA0F005AC9BC /* Load&Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Load&Decode.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				ACBD936A2A29D948005AC9BC /* Assets.xcassets */,
 				ACBD936C2A29D948005AC9BC /* Preview Content */,
 				ACBD937F2A29E7D3005AC9BC /* APIService.swift */,
+				ACBD93812A29EA0F005AC9BC /* Load&Decode.swift */,
 			);
 			path = FakeEcommerce;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */,
 				ACBD937C2A29DF17005AC9BC /* ProfileImageView.swift in Sources */,
 				ACBD93672A29D947005AC9BC /* FakeEcommerceApp.swift in Sources */,
+				ACBD93822A29EA0F005AC9BC /* Load&Decode.swift in Sources */,
 				ACBD93762A29DD47005AC9BC /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
