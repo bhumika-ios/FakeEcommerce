@@ -17,6 +17,7 @@
 		ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937D2A29E445005AC9BC /* CategoryView.swift */; };
 		ACBD93802A29E7D3005AC9BC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937F2A29E7D3005AC9BC /* APIService.swift */; };
 		ACBD93822A29EA0F005AC9BC /* Load&Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93812A29EA0F005AC9BC /* Load&Decode.swift */; };
+		ACBD93842A29EA64005AC9BC /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93832A29EA64005AC9BC /* ProductListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		ACBD937D2A29E445005AC9BC /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		ACBD937F2A29E7D3005AC9BC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		ACBD93812A29EA0F005AC9BC /* Load&Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Load&Decode.swift"; sourceTree = "<group>"; };
+		ACBD93832A29EA64005AC9BC /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBD93752A29DD47005AC9BC /* Product.swift */,
+				ACBD93832A29EA64005AC9BC /* ProductListViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				ACBD93792A29DDCF005AC9BC /* HomeView.swift in Sources */,
 				ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */,
 				ACBD937C2A29DF17005AC9BC /* ProfileImageView.swift in Sources */,
+				ACBD93842A29EA64005AC9BC /* ProductListViewModel.swift in Sources */,
 				ACBD93672A29D947005AC9BC /* FakeEcommerceApp.swift in Sources */,
 				ACBD93822A29EA0F005AC9BC /* Load&Decode.swift in Sources */,
 				ACBD93762A29DD47005AC9BC /* Product.swift in Sources */,

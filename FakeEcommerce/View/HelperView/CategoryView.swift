@@ -8,26 +8,32 @@
 import SwiftUI
 
 struct CategoryView: View {
+    @Binding var choosenCategory: ProductListEndpoint
     var body: some View {
         VStack{
-            Button(action: {
-                
-            }, label: {
-                Text("CategoryName")
-                    .font(.system(size: 12)).bold()
-                    .foregroundColor(.black)
-                    .padding(8)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 5)
-                            .stroke(Color.black, lineWidth: 1)
-                    )
-            })
+            HStack{
+            ForEach(ProductListEndpoint.allCases, id: \.self){category in
+               
+                    Button(action: {
+                        
+                    }, label: {
+                        Text(category.rawValue)
+                            .font(.system(size: 12)).bold()
+                            .foregroundColor(.black)
+                            .padding(8)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 5)
+                                    .stroke(Color.black, lineWidth: 1)
+                            )
+                    })
+                }
+            }
         }
     }
 }
 
-struct CategoryView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryView()
-    }
-}
+//struct CategoryView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CategoryView(choosenCategory: .constant(.electronics))
+//    }
+//}

@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var pickedCategory: ProductListEndpoint = .electronics
     var body: some View {
         NavigationView{
             ZStack{
                 //VStack(alignment: .leading){
                 VStack{
                     VStack{
-                        CategoryView()
+                        ScrollView(.horizontal, showsIndicators: false){
+                            CategoryView(choosenCategory: $pickedCategory)
+                        }
                     }
-                    
+                    .padding()
+                    Spacer()
                     
                 }
                     .toolbar {
