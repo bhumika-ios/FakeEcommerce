@@ -11,6 +11,7 @@
 		ACBD93692A29D947005AC9BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93682A29D947005AC9BC /* ContentView.swift */; };
 		ACBD936B2A29D948005AC9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBD936A2A29D948005AC9BC /* Assets.xcassets */; };
 		ACBD936E2A29D948005AC9BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBD936D2A29D948005AC9BC /* Preview Assets.xcassets */; };
+		ACBD93762A29DD47005AC9BC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93752A29DD47005AC9BC /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ACBD93682A29D947005AC9BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACBD936A2A29D948005AC9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACBD936D2A29D948005AC9BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACBD93752A29DD47005AC9BC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		ACBD93652A29D947005AC9BC /* FakeEcommerce */ = {
 			isa = PBXGroup;
 			children = (
+				ACBD93742A29DD35005AC9BC /* Model */,
 				ACBD93662A29D947005AC9BC /* FakeEcommerceApp.swift */,
 				ACBD93682A29D947005AC9BC /* ContentView.swift */,
 				ACBD936A2A29D948005AC9BC /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				ACBD936D2A29D948005AC9BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACBD93742A29DD35005AC9BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD93752A29DD47005AC9BC /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				ACBD93692A29D947005AC9BC /* ContentView.swift in Sources */,
 				ACBD93672A29D947005AC9BC /* FakeEcommerceApp.swift in Sources */,
+				ACBD93762A29DD47005AC9BC /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
