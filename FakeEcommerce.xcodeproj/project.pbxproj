@@ -15,6 +15,7 @@
 		ACBD93792A29DDCF005AC9BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93782A29DDCF005AC9BC /* HomeView.swift */; };
 		ACBD937C2A29DF17005AC9BC /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937B2A29DF17005AC9BC /* ProfileImageView.swift */; };
 		ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937D2A29E445005AC9BC /* CategoryView.swift */; };
+		ACBD93802A29E7D3005AC9BC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937F2A29E7D3005AC9BC /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		ACBD93782A29DDCF005AC9BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACBD937B2A29DF17005AC9BC /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 		ACBD937D2A29E445005AC9BC /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		ACBD937F2A29E7D3005AC9BC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				ACBD93682A29D947005AC9BC /* ContentView.swift */,
 				ACBD936A2A29D948005AC9BC /* Assets.xcassets */,
 				ACBD936C2A29D948005AC9BC /* Preview Content */,
+				ACBD937F2A29E7D3005AC9BC /* APIService.swift */,
 			);
 			path = FakeEcommerce;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBD93692A29D947005AC9BC /* ContentView.swift in Sources */,
+				ACBD93802A29E7D3005AC9BC /* APIService.swift in Sources */,
 				ACBD93792A29DDCF005AC9BC /* HomeView.swift in Sources */,
 				ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */,
 				ACBD937C2A29DF17005AC9BC /* ProfileImageView.swift in Sources */,

@@ -7,17 +7,11 @@
 
 import Foundation
 
-struct Product: Identifiable{
+struct Product: Identifiable,Codable{
     var id: Int
     var title: String
     var price: Double
     var description: String
-    var category: CategoryType
+    var category: String
     var image: String
-}
-enum CategoryType: String, CaseIterable{
-    case electronics = "electronics"
-    case jewelery = "jewelery"
-    case men = "men's clothing"
-    case women = "women's clothing"
 }

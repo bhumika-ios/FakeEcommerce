@@ -12,7 +12,13 @@ struct HomeView: View {
         NavigationView{
             ZStack{
                 //VStack(alignment: .leading){
-                    Text("hello")
+                VStack{
+                    VStack{
+                        CategoryView()
+                    }
+                    
+                    
+                }
                     .toolbar {
                         ToolbarItem(placement: .navigationBarLeading) {
                             Button(action: {
