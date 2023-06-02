@@ -14,6 +14,7 @@
 		ACBD93762A29DD47005AC9BC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93752A29DD47005AC9BC /* Product.swift */; };
 		ACBD93792A29DDCF005AC9BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD93782A29DDCF005AC9BC /* HomeView.swift */; };
 		ACBD937C2A29DF17005AC9BC /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937B2A29DF17005AC9BC /* ProfileImageView.swift */; };
+		ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD937D2A29E445005AC9BC /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		ACBD93752A29DD47005AC9BC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ACBD93782A29DDCF005AC9BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACBD937B2A29DF17005AC9BC /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		ACBD937D2A29E445005AC9BC /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBD937B2A29DF17005AC9BC /* ProfileImageView.swift */,
+				ACBD937D2A29E445005AC9BC /* CategoryView.swift */,
 			);
 			path = HelperView;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				ACBD93692A29D947005AC9BC /* ContentView.swift in Sources */,
 				ACBD93792A29DDCF005AC9BC /* HomeView.swift in Sources */,
+				ACBD937E2A29E445005AC9BC /* CategoryView.swift in Sources */,
 				ACBD937C2A29DF17005AC9BC /* ProfileImageView.swift in Sources */,
 				ACBD93672A29D947005AC9BC /* FakeEcommerceApp.swift in Sources */,
 				ACBD93762A29DD47005AC9BC /* Product.swift in Sources */,
