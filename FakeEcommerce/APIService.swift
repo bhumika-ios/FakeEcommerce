@@ -44,23 +44,7 @@ class APIServices: APIServicesProtocol {
 
 
 /// Diffrent product and the api endpoint
-enum ProductListEndpoint: String, CaseIterable {
-    
-   
-    case jewelery = "Jewelery"
-    case electronics = "electronics"
-    case men = "men's clothing"
-    case women = "women's clothing"
-    
-    var description: String {
-        switch self {
-        case .jewelery: return "/category/jewelery"
-        case .electronics: return "/category/electronics"
-        case .men: return "/category/men's%20clothing"
-        case .women: return "/category/women's%20clothing"
-        }
-    }
-}
+
 
 extension APIServices {
     
