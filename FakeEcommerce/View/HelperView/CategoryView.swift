@@ -15,7 +15,9 @@ struct CategoryView: View {
             ForEach(ProductListEndpoint.allCases, id: \.self){category in
                
                     Button(action: {
-                        
+                        withAnimation(.spring()){
+                            choosenCategory = category
+                        }
                     }, label: {
                         Text(category.rawValue)
                             .font(.system(size: 12)).bold()
